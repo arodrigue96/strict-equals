@@ -10,5 +10,5 @@ export const strictEqual = (valueA, valueB) => {
     }
     return Object.is(valueA, valueB);
 };
-console.log(strictEqual(1, "1"));
+strictEqual(true, false);
 //# sourceMappingURL=index.js.map

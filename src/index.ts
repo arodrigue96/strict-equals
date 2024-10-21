@@ -17,4 +17,4 @@ export const strictEqual = (
   return Object.is(valueA, valueB);
 };
 
-console.log(strictEqual(1, "1"));
+strictEqual(true, false);
