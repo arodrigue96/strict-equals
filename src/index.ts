@@ -1,4 +1,4 @@
-export const strictEqual = (
+export const isStrictEqual = (
   valueA: string | number | boolean,
   valueB: string | number | boolean
 ): boolean => {
@@ -16,5 +16,3 @@ export const strictEqual = (
 
   return Object.is(valueA, valueB);
 };
-
-strictEqual(true, false);
